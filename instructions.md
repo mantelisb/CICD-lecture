@@ -76,7 +76,10 @@ now every commit will invoke Travis build, and if Travis build is successful, He
 
 
 ## Front-End application
-Import now application from https://github.com/mantelisb/angular-demo-empty.git
+Go to GitHub -> Repositories -> New -> Press "import a repository"  ->
+in old repository url enter https://github.com/mantelisb/angular-demo-empty.git ->
+enter name (it is needed that your name will be unique, from your colleagues, because later it can make collisions while deploying) ->
+and press begin import
 
 
 ### Set up Travis:
