@@ -1,5 +1,8 @@
 # Instructions:
 
+1. Register to Heroku on https://heroku.com. You might need to add your credit card but don't worry - you shouldn't exceed the free tier limit.
+
+
 ## Back-End application
 
 Go to GitHub -> Repositories -> New -> Press "import a repository"  ->
@@ -121,6 +124,6 @@ that means FE could not reach BE, most probably:
 
 
 # Bonus:
-Create production apps in both pipeplines and connect them together!
-
+- Create production apps in both pipeplines and connect them together!
+- Set up branch permissions in Git (for your own good): Settings -> Branches -> [x] Require Pull Request -> [x] Require status checks to pass before merging and -> [x] Require pull request reviews before merging
 
