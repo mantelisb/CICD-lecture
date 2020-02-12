@@ -34,7 +34,8 @@ that is fine, you just need to give permission by cloning repo and entering comm
 then commit and push
 
 if you get `Could not target platform: 'Java SE 11' using tool chain: 'JDK 8 (1.8)'.`
-clone repo and add `system.properties` file from: https://github.com/mantelisb/CICD-lecture/blob/master/Spring%20application%20files/system.properties
+clone repo and add `system.properties` file from: https://github.com/mantelisb/CICD-lecture/blob/master/Spring%20application%20files/system.properties ->
+then commit and push
 
 good job, first app deployed!!! but it will fail, because it requires DB connection
 go to Overview in app view in Heroku ->
