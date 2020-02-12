@@ -2,6 +2,10 @@
 
 Register to Heroku on https://heroku.com. You might need to add your credit card but don't worry - you shouldn't exceed the free tier limit.
 
+## Examples:
+
+- SpringBoot: https://github.com/mantelisb/springboot-demo
+- Angular: https://github.com/mantelisb/angular-demo
 
 ## Back-End application
 
@@ -23,6 +27,14 @@ Search for a repository to connect ->
 Mark `"Wait for CI to pass before deploy"` ->
 Enable automatic deploys ->
 deploy branch ->
+
+if you get `./gradlew: Permission denied`
+that is fine, you just need to give permission by cloning repo and entering command in command line:
+`git update-index --chmod=+x gradlew` ->
+then commit and push
+
+if you get `Could not target platform: 'Java SE 11' using tool chain: 'JDK 8 (1.8)'.`
+clone repo and add `system.properties` file from: https://github.com/mantelisb/CICD-lecture/blob/master/Spring%20application%20files/system.properties
 
 good job, first app deployed!!! but it will fail, because it requires DB connection
 go to Overview in app view in Heroku ->
@@ -47,7 +59,7 @@ Congrats!!! continue
 
 ### Set up Travis:
 Follow instructions: https://docs.travis-ci.com/user/tutorial/  ->
-Create travis frome example: https://github.com/mantelisb/CICD-lecture/blob/master/Spring%20application%20files/.travis.yml
+Create travis file frome example: https://github.com/mantelisb/CICD-lecture/blob/master/Spring%20application%20files/.travis.yml
 
 if you get `/home/travis/.travis/functions: line 351: ./gradlew: Permission denied`
 that is fine, you just need to give permission by cloning repo and entering command in command line:
