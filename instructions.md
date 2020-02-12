@@ -1,6 +1,6 @@
 # Instructions:
 
-1. Register to Heroku on https://heroku.com. You might need to add your credit card but don't worry - you shouldn't exceed the free tier limit.
+Register to Heroku on https://heroku.com. You might need to add your credit card but don't worry - you shouldn't exceed the free tier limit.
 
 
 ## Back-End application
