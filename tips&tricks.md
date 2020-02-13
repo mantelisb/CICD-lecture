@@ -37,6 +37,7 @@ Write code -> Push to git -> Travis builds/tests/lints -> Check the review app -
 ## Tips
 
 - Application Error on Heroku? Don't jump out of the window yet - go to More -> view logs and hunt down that problem.
+- Want to set up new Travis/Heroku? Have you tried cleaning cache before?
 - Use environment variables
 - In git and GitHub, you can choose how you merge your commits. I usually go with _Squash and merge_ - this way I have clean commit history in my master branch. To enforce this behavior, you can go to _Repository Settings -> Merge button_ and leave only the type you wish to leave.
 - Drink plenty of water
