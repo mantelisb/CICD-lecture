@@ -139,4 +139,4 @@ that means FE could not reach BE, most probably:
 # Bonus:
 - Create production apps in both pipeplines and connect them together!
 - Set up branch permissions in Git (for your own good): Settings -> Branches -> [x] Require Pull Request -> [x] Require status checks to pass before merging and -> [x] Require pull request reviews before merging
-
+- Make e2e test run on Travis
