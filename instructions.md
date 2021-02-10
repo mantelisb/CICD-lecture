@@ -162,17 +162,17 @@ that means DB is not connected to BE, or DB is empty
 if you see: 
 `Message from server: server is down...`
 that means FE could not reach BE, most probably:
-- BE is dead, 
-- sleeping (Heroku app goes to sleep after 30 minn inactive, in this case try to directly call BE application and wait for it to wake up),
-- you didnt entered API_HOST before deploying FE app
+- you haven't entered API_HOST before deploying FE app
+- sleeping (Heroku app goes to sleep after 30 minn inactive, in this case wait for minute or so and try again)
+- BE is dead
 
 
-# Bonus:
-- Create production apps in both pipelines!
+# Bonus
+- Create in the same pipelines, also production apps but either disable automatic deploys to reach continuous delivery, either set up automatic deploys based on another git branch to reach continuous deployment   
 - Try to add failing test, so Travis would fail, and Heroku won't auto-deploy
 - Fix that test, so Heroku would auto-deploy  
-- Set up branch permissions in Git (for your own good): Settings -> Branches -> [x] Require Pull Request -> [x] Require status checks to pass before merging and -> [x] Require pull request reviews before merging
+- Read about and create branch protection rule
 
 
-#Result
+# Result
 - In order to present what you have done Send BE and FE apps and github repositories links (at total 4 links) 
