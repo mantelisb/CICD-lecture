@@ -172,6 +172,8 @@ that means FE could not reach BE, most probably:
 - Try to add failing test, so Travis would fail, and Heroku won't auto-deploy
 - Fix that test, so Heroku would auto-deploy  
 - Read about and create branch protection rule
+- Create a new pipeline, and connect github application straight to it, so on every opened PR, new app will deploy
+- Try to invite colleague/friend/me into github repository to collaborate, with added branch permission, restricting to merge straight to master, and at least 1 PR approval needed
 
 
 # Result

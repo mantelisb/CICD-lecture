@@ -5,4 +5,7 @@
 - ~~Why Travis/Heroku is needed?~~
 - ~~Travis build statuses explanation (yellow, green, red)~~
 - ~~How CI/CD works is in the bank?~~
+- **set up CI on heroku**
+- maybe reduce instruction details?
+- leave some build failures
 - E2E test set up
