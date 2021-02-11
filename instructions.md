@@ -103,14 +103,14 @@ value: `User`
 - key: DATABASE_PASSWORD
 value: `Password`
 
-Now press Open app, add /message at the end of url and Enjoy first response from you BE application!!!
+Now press Open app, and Enjoy first response from your BE application!!!
 
 If you see BE works:
 that means that your application is up and running
 
-Other wise try to Deploy your branchand test again, and if the problem persists you need to press More -> View logs -> and find out where is the problem.
+Other wise try to Deploy your branch and test again, and if the problem persists you need to press More -> View logs -> and find out where is the problem.
 
-Now try to append `/name` at the end of url, and it will add your name in to database. To check that delete `/name` from url and leave `/message` ending.
+Now try to append (replace word name with your real name f.e. /message/mantas) `/message/name` at the end of url, and it will add your name in to database. To check that delete `/message/name` from url.
 
 If you see BE works DB success message: `name`:
 Congrats!!! continue
