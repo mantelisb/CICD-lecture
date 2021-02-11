@@ -1,7 +1,5 @@
 # Instructions:
 
-Register to Heroku on https://heroku.com. You might need to add your payment card but don't worry - you shouldn't exceed the free tier limit (If you have Revolut, just use virtual card for that).
-
 ## Examples
 
 ### Already configured repos
@@ -52,6 +50,8 @@ then commit and push
 
 
 ### Set up Heroku:
+
+Register to Heroku on https://heroku.com
 
 No we are going to deploy already created application in Heroku
 
