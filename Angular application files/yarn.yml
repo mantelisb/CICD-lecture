@@ -1,0 +1,20 @@
+name: Build and Test
+on:
+  push:
+    branches:
+      - master
+jobs:
+  install-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js 11
+        uses: actions/setup-node@master
+        with:
+          node-version: 11
+      - name: Build, lint and test
+        run: |
+          yarn
+          yarn lint
+          yarn test --watch=false --browsers=ChromeHeadless
+          yarn build --prod
